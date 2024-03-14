@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "599098484804",
+    "project_id": "tpseachplace",
+    "storage_bucket": "tpseachplace.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:599098484804:android:0cbf8e409fc8d5ef81b411",
+        "android_client_info": {
+          "package_name": "com.mrhi2024.tpsearchplacebykakao"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRje9GvayZfss92AuNPtoRUkH_UUsgFNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
