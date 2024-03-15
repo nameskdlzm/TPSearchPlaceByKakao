@@ -15,6 +15,12 @@ android {
         versionCode 1
         versionName "1.0"
 
+        Properties properties = new Properties()
+        properties.load(project.rootProject.file('local.properties').newDataInputStream())
+
+        buildConfigField "String", "Kakao_map_key", "\"${properties.getProperty("Kakao_map_key")}\""
+
+
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -33,6 +39,7 @@ android {
     }
     buildFeatures{
         viewBinding true
+        buildConfig true
     }
 }
 

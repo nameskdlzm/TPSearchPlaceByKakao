@@ -8,6 +8,7 @@ import android.webkit.WebChromeClient
 import android.webkit.WebViewClient
 import android.widget.Toast
 import com.google.gson.Gson
+import com.mrhi2024.tpsearchplacebykakao.BuildConfig
 import com.mrhi2024.tpsearchplacebykakao.R
 import com.mrhi2024.tpsearchplacebykakao.data.Place
 import com.mrhi2024.tpsearchplacebykakao.databinding.ActivityPlaceDetailBinding

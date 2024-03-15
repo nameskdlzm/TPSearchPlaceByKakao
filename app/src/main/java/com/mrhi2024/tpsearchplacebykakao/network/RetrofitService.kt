@@ -13,10 +13,10 @@ interface RetrofitService {
     @GET("/v2/local/search/keyword.json")
     fun searchPlaceToString(@Query("query") query:String,@Query("x") longitude:String,@Query("y") letitude:String) : Call<String>
 
-
     // 카카오 로컬 검색 api 요청해주는 코드 만들어줘. 우선 응답 type :KakaoSearchPlaceResponse
     @Headers("Authorization: KakaoAK 218ae28eb63a74438ec96a51e9568f9b")
     @GET("/v2/local/search/keyword.json?sort=distance")
     fun searchPlace(@Query("query") query:String,@Query("x") longitude:String,@Query("y") letitude:String) : Call<KakaoSearchPlaceResponse>
+
 
 }

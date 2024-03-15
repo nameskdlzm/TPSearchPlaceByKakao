@@ -45,7 +45,9 @@
         <!-- 카카오 지도 네이티브 앱키 등록 -->
         <meta-data
             android:name="com.kakao.vectormap.APP_KEY"
-            android:value="692c65c843eca07476b0cc42d3e93152"/>
+            android:value="@string/kakao_map_api_key"/>
+
+
 
 
     </application>
